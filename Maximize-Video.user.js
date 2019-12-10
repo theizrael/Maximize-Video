@@ -4,7 +4,7 @@
 // @description         Maximize all video players.Support Piture-in-picture.
 // @author              Theizrael
 // @homepage            https://github.com/theizrael/Maximize-Video
-// @icon                https://raw.github.com/theizrael/Maximize-Video/master/favicons.png
+// @icon                https://raw.github.com/theizrael/Stein-UserScript-JS/master/favicons.png
 // @updateURL           https://raw.githubusercontent.com/theizrael/Maximize-Video/master/Maximize-Video.user.js
 // @downloadURL         https://raw.githubusercontent.com/theizrael/Maximize-Video/master/Maximize-Video.user.js
 // @supportURL          https://github.com/theizrael/Maximize-Video/issues
