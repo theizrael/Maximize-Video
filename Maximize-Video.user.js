@@ -1,10 +1,13 @@
 // ==UserScript==
 // @name                Maximize Video
-// @name:zh-CN          视频网页全屏
-// @namespace           http://www.icycat.com
+// @namespace           https://github.com/theizrael/Maximize-Video
 // @description         Maximize all video players.Support Piture-in-picture.
-// @description:zh-CN   让所有视频网页全屏，新增画中画功能
-// @author              冻猫
+// @author              Theizrael
+// @homepage            https://github.com/theizrael/Maximize-Video
+// @icon                https://raw.github.com/theizrael/Maximize-Video/master/favicons.png
+// @updateURL           https://raw.githubusercontent.com/theizrael/Maximize-Video/master/Maximize-Video.user.js
+// @downloadURL         https://raw.githubusercontent.com/theizrael/Maximize-Video/master/Maximize-Video.user.js
+// @supportURL          https://github.com/theizrael/Maximize-Video/issues
 // @include             *
 // @exclude             *www.w3school.com.cn*
 // @version             11.6
@@ -27,7 +30,7 @@ exec(function() {
         autoCheckCount: 0
     };
 
-    //Html5规则[播放器最外层],适用于自适应大小HTML5播放器
+    //Html5 Rule [player outermost layer], suitable for adaptive size HTML5 player
     var html5Rules = {
         'www.acfun.cn': ['.player-container .player'],
         'www.bilibili.com': ['#bilibiliPlayer'],
@@ -38,7 +41,7 @@ exec(function() {
         'www.yy.com': ['#player']
     };
 
-    //通用html5播放器
+    //Universal html5 player
     var generalPlayerRules = ['.dplayer', '.video-js', '.jwplayer'];
 
     if (window.top !== window.self) {
@@ -288,6 +291,7 @@ exec(function() {
             }, 20);
         },
         hotKey: function(e) {
+            
             //默认退出键为ESC。需要修改为其他快捷键的请搜索"keycode"，修改为按键对应的数字。
             if (e.keyCode == 27) {
                 maximize.playerControl();
