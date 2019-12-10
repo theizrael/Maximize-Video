@@ -5,7 +5,7 @@
 // @author              Theizrael
 // @homepage            https://github.com/theizrael/Maximize-Video
 // @icon                https://raw.github.com/theizrael/Stein-UserScript-JS/master/favicons.png
-// @updateURL           https://raw.githubusercontent.com/theizrael/Maximize-Video/master/Maximize-Video.user.js
+// @updateURL           https://github.com/theizrael/Maximize-Video/raw/master/Maximize-Video.user.js
 // @downloadURL         https://github.com/theizrael/Maximize-Video/raw/master/Maximize-Video.user.js
 // @supportURL          https://github.com/theizrael/Maximize-Video/issues
 // @include             *
