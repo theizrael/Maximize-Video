@@ -3,14 +3,14 @@
 // @namespace           https://github.com/theizrael/Maximize-Video
 // @description         Maximize all video players.Support Piture-in-picture.
 // @author              Theizrael
-// @homepage            https://github.com/theizrael/Maximize-Video
-// @icon                https://raw.github.com/theizrael/Stein-UserScript-JS/master/favicons.png
+// @homepage            https://github.com/theizrael/Maximize-Video/
+// @icon                https://raw.github.com/theizrael/Maximize-Video/master/favicons.png
 // @updateURL           https://github.com/theizrael/Maximize-Video/raw/master/Maximize-Video.user.js
 // @downloadURL         https://github.com/theizrael/Maximize-Video/raw/master/Maximize-Video.user.js
 // @supportURL          https://github.com/theizrael/Maximize-Video/issues
 // @include             *
 // @exclude             *www.w3school.com.cn*
-// @version             11.6
+// @version             11.7
 // @run-at              document-end
 // ==/UserScript==
 
