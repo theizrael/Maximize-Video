@@ -10,9 +10,11 @@
 // @supportURL          https://github.com/theizrael/Maximize-Video/issues
 // @include             *
 // @exclude             *www.w3school.com.cn*
-// @version             11.7
+// @version             11.8
 // @run-at              document-end
 // ==/UserScript==
+
+
 
 function exec(fn) {
     var script = document.createElement('script');
